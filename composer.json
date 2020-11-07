@@ -1,6 +1,9 @@
 {
     "type": "project",
     "license": "proprietary",
+    "repositories": [
+
+    ],
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
@@ -92,8 +95,10 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false,
+            "allow-contrib": true,
             "require": "5.1.*"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
